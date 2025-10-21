@@ -389,7 +389,7 @@ fi
 cd - >/dev/null
 
 # Update main.bicepparam file
-done
+
 echo ""
 
 # Update main.bicepparam file

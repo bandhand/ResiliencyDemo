@@ -10,7 +10,7 @@ param logicalNetworkId = '/subscriptions/fca2e8ee-1179-48b8-9532-428ed0873a2e/re
 param vmImageId = '/subscriptions/fca2e8ee-1179-48b8-9532-428ed0873a2e/resourceGroups/cc-test/providers/Microsoft.AzureStackHCI/galleryImages/ubuntu2404lts'
 
 // This is just the name of the storage account itself
-param scriptStorageAccount = '' // Leave empty to auto-generate, or specify existing storage account name
+param scriptStorageAccount = 'ecommscripts8895' // Leave empty to auto-generate, or specify existing storage account name
 
 // Static IP assignments (update these to match your network range)
 // All IPs must be in the same subnet
